@@ -24,6 +24,16 @@ The core advantage of this architecture is that the source file is read only onc
 3. **Decorator Pattern**
    - Implemented via Java's native I/O Streams. The processors dynamically wrap standard `FileOutputStream` with decorator streams like `ZipOutputStream` or `CipherOutputStream` to modify the output behavior on the fly.
 
+## 💻 Usage
+
+You can run the `jcompress` tool via the command line by providing the target file and the desired operation flags. The order of the flags does not matter, and you can combine them as needed.
+
+**Command Syntax:**
+```bash
+javac -d out -sourcepath src src/th/ac/tu/jcompress/Main.java
+java -cp out th.ac.tu.jcompress.Main <target_file> [-zip] [-DES] [-MD5]
+```
+
 ## 📁 Project Structure
 
 ```text
