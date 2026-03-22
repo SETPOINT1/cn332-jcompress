@@ -1,5 +1,13 @@
 # JCompress - OOAD File Processor
 
+**Student Information**
+- **Name:** Chonchanan Jitrawang
+- **Student ID:** 6610685056
+- **Program:** Computer Engineering, Thammasat University
+- **Course:** CN332 Object-Oriented Analysis and Design (OOAD)
+
+---
+
 A flexible command-line file processing tool developed in Java. This project demonstrates the application of Object-Oriented Analysis and Design (OOAD) principles, specifically utilizing the **Observer**, **Strategy**, and **Decorator** design patterns.
 
 ## 🚀 Features
